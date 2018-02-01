@@ -1,7 +1,7 @@
 # colorconvert
-### A Matlab function for converting between different color coordinates
+### A Matlab function for converting between different color coordinate systems
 
-The purpose of the `colorconvert` function is to provide a simple way to convert between different color coordinates. Although Matlab's image-processing toolbox provides much of this functionality already, the `colorconvert` function is much simpler to use. The basic syntax is:
+The purpose of the `colorconvert` function is to provide a simple way to convert between different color coordinate systems. Although Matlab's image-processing toolbox provides much of this functionality already, the `colorconvert` function is much simpler to use. The basic syntax is:
 ```matlab
 out = colorconvert(color,colorspace,ref);
 ```
@@ -15,8 +15,8 @@ out = colorconvert(color,colorspace,ref);
   - `'LChuv'`: cylindrical representation of CIELUV space with the hue angle huv specified in degrees (L,Cuv,huv)
   - `'CC'`: cone-opponent contrast space as specified in Eskew, McLellan, and Giulianini (1999). (LMc,Sc,Lumc)
 - `ref` is the reference whitepoint used in the conversions. Valid options currently include
-  - `'D65'`: Illuminant D65 (white)
-  - `'C'`: Illuminant C
+  - `'D65'`: CIE Illuminant D65 (white)
+  - `'C'`: CIE Illuminant C
 The second syntax allows the user to specify a custom whitepoint:
 ```matlab
 out = colorconvert(color,colorspace,ref,refspace);
