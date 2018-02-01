@@ -17,6 +17,7 @@ out = colorconvert(color,colorspace,ref);
 - `ref` is the reference whitepoint used in the conversions. Valid options currently include
   - `'D65'`: CIE Illuminant D65 (white)
   - `'C'`: CIE Illuminant C
+  
 The second syntax allows the user to specify a custom whitepoint:
 ```matlab
 out = colorconvert(color,colorspace,ref,refspace);
