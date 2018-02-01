@@ -1,7 +1,7 @@
 # colorconvert
 ### A Matlab function for converting between different color coordinate systems
 
-The purpose of the `colorconvert` function is to provide a simple way to convert between different color coordinate systems. Although Matlab's image-processing toolbox provides much of this functionality already, the `colorconvert` function is much simpler to use. The basic syntax is:
+The purpose of the `colorconvert` function is to provide a simple way to convert between different color coordinate systems, using either a standard whitepoint such as D65 or a user-specified whitepoint. Although Matlab's image-processing toolbox provides much of this functionality already, the `colorconvert` function is much simpler to use. The basic syntax is:
 ```matlab
 out = colorconvert(color,colorspace,ref);
 ```
