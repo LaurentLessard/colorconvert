@@ -40,7 +40,7 @@ The fields contained in the `out` struct are the standard coordinates listed abo
 ### How to cite this code
 If you want to acknowledge use of this software in published works, please use:
 
-> L. Lessard, colorconvert, (2018), GitHub repository, https://github.com/LaurentLessard/colorconvert
+> L. Lessard, "colorconvert", (2018), GitHub repository, https://github.com/LaurentLessard/colorconvert
   
 And respective BibTeX entry:
 
