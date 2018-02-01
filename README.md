@@ -36,3 +36,21 @@ a = out.a
 b = out.b
 ```
 The fields contained in the `out` struct are the standard coordinates listed above: `X,Y,Z,x,y,L,a,b,u,v,Cab,Cuv,hab,huv,LMc,Sc,Lumc`. Also included are the saturation in Lab and Luv coordinates: `Sab,Suv` and the whitepoint in XYZ coordinates `Xn,Yn,Zn`.
+
+### How to cite this code
+If you want to acknowledge use of this software in published works, please use:
+
+> L. Lessard, colorconvert, (2018), GitHub repository, https://github.com/LaurentLessard/colorconvert
+  
+And respective BibTeX entry:
+
+```bibtex
+@misc{colorconvert,
+  author = {Lessard, Laurent},
+  title = {colorconvert},
+  year = {2018},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/LaurentLessard/colorconvert}}
+}
+```
