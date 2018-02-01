@@ -26,7 +26,7 @@ out = colorconvert(color,colorspace,ref,refspace);
 - `ref` is now a vector of length 3 indicating the coordinates of the custom whitepoint
 - `refspace` is the color space in which `ref` is specified. Valid options include `'XYZ'` and `'xyY'`
 
-### Example
+## Example
 The output `out` is a struct that contains the conversions of the input colors into all the color spaces specified above. For example, to convert a color specified in xyY coordinates by x=0.25, y=0.35, Y=70 into Lab coordinates using a D65 whitepoint, we would write the following code:
 ```matlab
 c = [0.25, 0.35, 70]  % color to be converted, specified in xyY coordinates
@@ -37,7 +37,7 @@ b = out.b
 ```
 The fields contained in the `out` struct are the standard coordinates listed above: `X,Y,Z,x,y,L,a,b,u,v,Cab,Cuv,hab,huv,LMc,Sc,Lumc`. Also included are the saturation in Lab and Luv coordinates: `Sab,Suv` and the whitepoint in XYZ coordinates `Xn,Yn,Zn`.
 
-### How to cite this code
+## How to cite this code
 If you want to acknowledge use of this software in published works, please use:
 
 > L. Lessard, "colorconvert", (2018), GitHub repository, https://github.com/LaurentLessard/colorconvert
