@@ -54,3 +54,8 @@ And respective BibTeX entry:
   howpublished = {\url{https://github.com/LaurentLessard/colorconvert}}
 }
 ```
+
+## Change log
+
+- version 1.0 (Feb 1, 2018): first release
+- version 1.1 (Aug 27, 2018): minor bug fix, added Luv conversion functionality
