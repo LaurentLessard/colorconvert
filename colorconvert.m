@@ -118,6 +118,8 @@ try
             [X, Y, Z] = xyY_XYZ( color );
         case 'Lab'
             [X, Y, Z] = Lab_XYZ( color );
+        case 'Luv'
+            [X, Y, Z] = Luv_XYZ( color );
         case 'Lchuv'
             [X, Y, Z] = LChuv_XYZ( color );
         case 'Lchab'
