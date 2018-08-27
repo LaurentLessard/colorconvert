@@ -38,7 +38,7 @@ function out = colorconvert( color, colorspace, ref, varargin )
 % Also included are the saturation in Lab and Luv coordinates {Sab,Suv}
 % and the whitepoint in XYZ coordinates {Xn,Yn,Zn}
 % 
-% written by Laurent Lessard, version 1.0, 1/2018.
+% written by Laurent Lessard, version 1.1, 8/27/2018.
 % www.laurentlessard.com
 
 
