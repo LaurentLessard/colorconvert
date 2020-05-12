@@ -122,7 +122,7 @@ try
             [X, Y, Z] = Luv_XYZ( color );
         case 'Lchuv'
             [X, Y, Z] = LChuv_XYZ( color );
-        case 'Lchab'
+        case 'LChab'
             [X, Y, Z] = LChab_XYZ( color );
         case 'CC'
             [X, Y, Z] = CC_XYZ( color );
