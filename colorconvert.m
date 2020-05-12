@@ -120,7 +120,7 @@ try
             [X, Y, Z] = Lab_XYZ( color );
         case 'Luv'
             [X, Y, Z] = Luv_XYZ( color );
-        case 'Lchuv'
+        case 'LChuv'
             [X, Y, Z] = LChuv_XYZ( color );
         case 'LChab'
             [X, Y, Z] = LChab_XYZ( color );
